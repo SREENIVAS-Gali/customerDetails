@@ -1,11 +1,11 @@
 import "./App.css";
-import CustomerData from "./components/CustomerData";
+import CustomerTable from "./components/CustomerTable";
 
 function App() {
   return (
     <>
       <div className="App">
-        <CustomerData />
+        <CustomerTable />
       </div>
     </>
   );

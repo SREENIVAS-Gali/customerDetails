@@ -113,3 +113,46 @@
   margin-right: 10%;
   margin-bottom: 10px;
 }
+
+.filter-container {
+  display: flex;
+}
+
+.sort-dropdown,
+.sort-order-dropdown {
+  margin-right: 10px;
+}
+
+.selectEl {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.selectEl.active {
+  border-color: #3498db; /* Change to the desired active color */
+}
+
+.search-and-fiter-container{
+  display: flex;
+  width: 70%;
+  margin-left:12%;
+  justify-content: space-between;
+}
+
+.bottom-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.Date-time-continer{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.Date-time-continer-1{
+  display: flex;
+  justify-content: center;
+}
